@@ -1,10 +1,9 @@
 import React from 'react'
-import UseStatePart3 from './components/UseStatePart3'
-
+import Game from './components/SpeedTypingGame'
 function App() {
   return (
     <div>
-      <UseStatePart3 />
+      <Game />
     </div>
   )
 }
