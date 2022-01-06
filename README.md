@@ -1,3 +1,30 @@
+#Lecture notes
+
+
+1. Hooks Intro
+2. useState() Part 1 - Creating State
+3. useState() Part 2 - Changing State
+4. useState() Part 3 - Changing More Complex State
+5. useEffect() Part 1
+6. useEffect() Part 2
+7. Speed Typing Game Intro
+8. Speed Typing Game Part 1
+9. Speed Typing Game Part 2
+10. Speed Typing Game Part 3
+11. Speed Typing Game Part 4
+12. Speed Typing Game Part 5
+13. Speed Typing Game Part 6
+14. useRef
+15. Speed Typing Game Part 7
+16. useContext()
+17. Hooks Practice - refactor themeContext
+18. Custom Hooks
+19. Custom Hooks practice - refactor toggler
+20. Speed Typing Game Part 8
+21. Feedback - Hooks
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
