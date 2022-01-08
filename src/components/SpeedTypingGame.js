@@ -9,6 +9,7 @@ export default function SpeedTypingGame() {
     const [timer, setTimer] = React.useState(TIMER_DUR)
     const [start, setStart] = React.useState(false)
     const [wpm, setWpm] = React.useState(0)
+    const inputRef = React.useRef(null)
 
 
     function handleChange(e){
@@ -35,6 +36,8 @@ export default function SpeedTypingGame() {
         setTimer(TIMER_DUR)
         setWpm(0)
         setText("")
+        inputRef.current.disabled=false
+        inputRef.current.focus()
 
     }
     function handleEndGame(){
@@ -51,7 +54,8 @@ export default function SpeedTypingGame() {
     return (
         <div>
             <h1>Speed Typing Game</h1>
-            <textarea  
+            <textarea 
+            ref={inputRef}
             onChange={handleChange}
             value={text}
             disabled={!start}
