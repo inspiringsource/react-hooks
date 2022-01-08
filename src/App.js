@@ -1,10 +1,11 @@
 import React from 'react'
-import Game from './components/SpeedTypingGame'
+// import Game from './components/SpeedTypingGame'
 // import ToDo from './components/ToDo'
+import SimpleCounter from './components/SimpleCount'
 function App() {
   return (
     <div>
-      <Game />
+      <SimpleCounter />
     </div>
   )
 }
